@@ -168,20 +168,20 @@ html, body {
     flex-direction: column;
     cursor: pointer;
     margin-right: 10px;
-  }
+}
 
-  .line {
+.line {
     width: 25px;
     height: 3px;
     background-color: #FFFFFF;
     margin: 3px;
     cursor: pointer;
-  }
+}
 
-  .line:hover {
+.line:hover {
     color: #34A8CF;
     cursor: pointer;
-  }
+}
 
 .menu__list {
     list-style: none;
@@ -779,8 +779,6 @@ html, body {
         flex-wrap: nowrap;
     }
 
-
-
     .swiper__container {
         max-width: 909px;
     }
@@ -806,8 +804,6 @@ html, body {
     .footer__container {
         max-width: 909px;
     }
-
-
 }
 
 @media (max-width: 990px) {
@@ -825,7 +821,6 @@ html, body {
 
     .navbar {
         max-width: 665px;
-
     }
 
     .swiper .swiper-slide {
@@ -905,12 +900,10 @@ html, body {
         flex-wrap: wrap;
         padding-top: 61px;
         padding-bottom: 30px;
-
     }
 
     .partners__title {
         flex-shrink: 0;
-
     }
 
     .partners__brands {
@@ -983,10 +976,10 @@ html, body {
 
     .burger-menu {
         display: block;
-      }
-      
+    }
+
     .navbar {
-       /* max-width: 280px; 
+        /* max-width: 280px; 
         flex-direction: column; 
         display: block;
         position: absolute;
@@ -1000,7 +993,7 @@ html, body {
         background-color: #172933; */
     }
 
-   .navbar__wrap .menu__list {
+    .navbar__wrap .menu__list {
         display: none;
     }
 
@@ -1019,6 +1012,7 @@ html, body {
     .popup.open {
         left: 0;
     }
+
     .popup .menu__list {
         width: 100%;
         height: 100%;
@@ -1028,9 +1022,9 @@ html, body {
         justify-content: start;
         overflow: auto;
     }
+
     .menu__list-item {
         line-height: 24px;
-
     }
 
     .menu__link {
@@ -1101,8 +1095,6 @@ html, body {
         margin: 0;
     }
 
-
-
     .partners {
         max-width: 280px;
     }
@@ -1164,8 +1156,6 @@ html, body {
         margin-bottom: 7px;
     }
 
-
-
     .footer__container {
         max-width: 280px;
         padding-top: 39px;
@@ -1204,4 +1194,240 @@ html, body {
         font-size: 11px;
         line-height: 16px;
     }
+}
+
+/* For about.html page*/
+
+.about {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    min-width: 320px;
+}
+
+.about__bg {
+    background-color: #34A8CF;
+}
+
+.about__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1171px;
+    color: #FFFFFF;
+    flex-shrink: 0;
+    padding-top: 66px;
+    padding-bottom: 53px;
+}
+
+.about__header_big {
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.about__header_small {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 137.5% */
+    text-transform: uppercase;
+}
+
+.about__article {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: #172933;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1171px;
+    margin-top: 82px;
+    margin-bottom: 72px;
+}
+
+.about__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0;
+    margin-top: 27px;
+    padding: 0;
+}
+
+.about__wrap {
+    margin: 0 auto 20px;
+    padding: 0;
+    max-width: 600px;
+}
+
+.about__article__text {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.about__article__text:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.about__subheader {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 0 22px 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.about__subheader::before {
+    content: url(./images/gear.svg);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: -20px;
+}
+
+.about__list-items {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.business {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.business__wrap {
+    margin: 80px auto 90px;
+    max-width: 1171px;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.business__box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.business__img_vent {
+    width: 112px;
+    height: 120px;
+}
+
+.business__header {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.business__title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+    text-transform: uppercase;
+}
+
+.business__description {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.business__info {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 42px;
+}
+
+.business__subtitle {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.business__list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 34px;
+}
+
+.business__list-items {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.business__more {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 33px;
+}
+
+.business__more_link {
+    color: #3EC2CF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.business__more_blue:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.business__button {
+    width: 162px;
+    height: 37px;
+    border-radius: 3px;
+    background-color: #3EC2CF;
+    color: #FFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    border-color: transparent;
+    margin-bottom: 80px;
+    padding: 12px 9px 9px;
+    cursor: pointer;
 }
